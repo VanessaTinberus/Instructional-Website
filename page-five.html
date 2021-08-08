@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Summative Assessment</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="styles/style-five.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <div class='whole'>
+
+      <h1>Summative Assessment</h1>
+    
+          
+<!--final result presents here-->
+          <div id='testresult'></div>
+            
+           <div id='intro'> 
+          <p>The following three questions test your knowledge of the skills when making tea eggs. You may be familiar with them if you carefully studied the previous materials. Give it a try!</p>   
+          </div>
+         
+          <form>
+<!--three questions-->
+          <p>1. Which ingredient is essential for making tea eggs?</p>
+          <input type="radio" id="one-a" name="question one" value="Sorry, the correct answer is B. You can review the section 'Prepare the ingredients'.">
+            <label for="one-a">A. Ginger</label>
+          <input type="radio" id="one-b" name="question one" value="Correct!">
+            <label for="one-b">B. Tea leaves</label>
+          <input type="radio" id="one-c" name="question one" value="Sorry, the correct answer is B. You can review the section 'Prepare the ingredients'.">
+            <label for="one-c">C. Chili</label>
+        
+         <!-- show the result of the first question-->
+              
+          <br><div class="result">
+            <pre id="logone"></pre> 
+              </div>
+              <br>
+          
+          
+          <p>2. If this is the first time you boil the egg, which method below can help you identify the hardness of the egg?</p>
+          <input type="radio" id="two-a" name="question two" value="Sorry, the correct answer is C. Fresh eggs don't float in the water. You can review the section 'Boil the eggs'. ">
+            <label for="two-a">A. Wait till the egg floats.</label><br>
+          <input type="radio" id="two-b" name="question two" value="Sorry, the correct answer is C. Fresh eggs don't slosh inside. You can review the section 'Boil the eggs'. ">
+            <label for="two-b">B. Scoop out the egg and shake it.</label><br>
+          <input type="radio" id="two-c" name="question two" value="Correct!">
+            <label for="two-c">C. Boil 3 minutes, scoop out the egg, and peel a small part of the eggshell to see the elasticity of the egg white.</label>
+          
+           <!-- show the result of the second question-->
+              <br><div class="result">
+            <pre id="logtwo"></pre> 
+              </div>
+              <br>
+          
+          
+          <p>3. If you want to get a soft egg yolk, which method is more favorable?</p>
+          <input type="radio" id="three-a" name="question three" value="Sorry, the correct answer is B. You can review the section 'Soak the eggs'.">
+            <label for="two-a">A. Simmer the eggs</label><br>
+          <input type="radio" id="three-b" name="question three" value="Correct!">
+            <label for="two-b">B. Steep the eggs</label>
+          
+          
+           <!-- show the result of the third question-->
+              <br><div class="result">
+            <pre id="logthree"></pre> 
+              </div>
+              <br>
+          
+          
+       <!-- Tell HTML that we are done.-->
+            <button type="submit" onclick="testresult()">Submit</button>
+        <br>
+          
+      </form>
+    
+      </div>
+      
+
+      
+      
+<!--transverse links-->
+          <br>
+          <div class='Previous'>
+            <p style='font-size: 1.4rem;'><a href='page-four.html'>&lt;&lt;Previous: soak the eggs</a></p>
+          </div>
+      
+          <div class='Home'>
+            <p style='font-size: 1.4rem;'><a href='index.html'>Home</a></p>
+          </div>
+          
+      
+          <div class='Next'>
+          <p></p>
+          </div>
+
+<!--listen event of 'learn by doing'-->
+      <script src="scripts/js-five.js"></script>
+      
+      
+  </body>
+</html>

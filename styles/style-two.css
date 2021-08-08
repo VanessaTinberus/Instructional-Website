@@ -1,0 +1,82 @@
+body {
+  width: 900px;
+  margin: 1rem auto 2rem auto;
+}
+
+
+.whole{
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #F1D282;
+  background-color: blanchedalmond;
+}
+
+
+
+h1 {
+  font-family: "Gill Sans", "Courier",serif;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem auto 1.5 auto;
+}
+
+
+.LO{
+  border:2px solid #F1D282;
+  background-color: #FFCD82;
+  padding:5px;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-family: "Gill Sans", sans-serif;  
+}
+
+
+ul li, ol li, p, span {
+  font-size: 1.3rem;
+  font-family: "Gill Sans", sans-serif;
+  line-height: 1.7rem;
+}
+
+.img-box-one{
+  width: 500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box-one img{
+  width: 500px; 
+}   
+
+
+.img-box-two img{
+  width: 300px; 
+}   
+
+
+.result{
+    background-color: #FFCD82;
+}
+
+/*transverse links at the bottom*/
+.Previous {
+  width: 33.33%;
+  text-align: center;
+  float: left;
+}
+
+.Home {
+  width: 33.33%;
+  text-align: center;
+  float: left;
+}
+
+.Next {
+  width: 33.33%;
+  text-align: center;
+  float: left;
+}
+
+

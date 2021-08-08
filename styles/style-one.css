@@ -1,0 +1,37 @@
+body {
+  width: 900px;
+  margin: 1rem auto 1rem auto;
+}
+
+.whole{
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #F1D282;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-family: "Gill Sans", "Courier",serif;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem auto 0 auto;
+}
+
+
+.ol, p {
+  font-size: 1.3rem;
+  font-family: "Gill Sans", sans-serif;
+  line-height: 1.7rem;
+}
+
+
+.img-box{
+  width: 600px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box img{
+  width: 600px; 
+}    
