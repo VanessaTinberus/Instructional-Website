@@ -14,7 +14,7 @@ body {
 
 h1 {
   font-family: "Gill Sans", "Courier",serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 1.5rem auto 1.5 auto;
 }
@@ -27,15 +27,15 @@ h1 {
 }
 
 h2{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Gill Sans", sans-serif;  
 }
 
 
 ul li, ol li, p, span {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Gill Sans", sans-serif;
-  line-height: 1.7rem;
+  line-height: 1.4rem;
 }
 
 .img-box-one{
