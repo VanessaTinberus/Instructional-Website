@@ -14,31 +14,31 @@ body {
 
 h1 {
   font-family: "Gill Sans", "Courier",serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 1.5rem auto 1.5 auto;
 }
 
 p{
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Gill Sans", sans-serif;
-  line-height: 1.7rem;
+  line-height: 1.4rem;
 }
 
 
 #testresult{
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Gill Sans", sans-serif;
-  line-height: 1.7rem;
+  line-height: 1.4rem;
   font-weight: bold;
   background-color: #91D0F3;  
 }
 
 
 #intro{
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Gill Sans", sans-serif;
-  line-height: 1.7rem;
+  line-height: 1.4rem;
   color:#BE7200;
     
 }
